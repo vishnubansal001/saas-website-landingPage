@@ -4,11 +4,13 @@ import Sayings from "./components/Sayings";
 
 function App() {
   return (
-    <div>
+    <>
       <NavBar />
-      <Hero />
-      <Sayings />
-    </div>
+      <main className="flex flex-col gap-10 bg-black">
+        <Hero />
+        <Sayings />
+      </main>
+    </>
   );
 }
 

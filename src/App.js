@@ -1,7 +1,4 @@
-import Hero from "./components/Hero";
-import NavBar from "./components/NavBar";
-import Products from "./components/Products";
-import Sayings from "./components/Sayings";
+import { Hero, NavBar, Products, Sayings } from "./components";
 
 function App() {
   return (

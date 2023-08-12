@@ -23,7 +23,7 @@ export default function NavBar() {
     }));
   };
   return (
-    <header className="bg-black fixed w-full h-auto hidden lg:flex flex-col justify-center items-center text-white border-b-[1px] border-white select-none">
+    <header className="bg-black z-[1000] fixed w-full h-auto hidden lg:flex flex-col justify-center items-center text-white border-b-[1px] border-white select-none">
       <nav className="flex flex-row justify-between w-full py-5 px-6 xl:px-10">
         <div className="flex flex-row justify-between items-center gap-14 xl:gap-20">
           <div>
